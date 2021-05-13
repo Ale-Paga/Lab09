@@ -6,7 +6,10 @@ public class TestModel {
 
 		Model model = new Model();
 
-		System.out.println("TestModel -- TODO");
+		System.out.println("Creo grafo");
+		model.creaGrafo(2006);
+		Country c = new Country("Argentina", "ARG", 160);
+		//model.getReachableCountries(c);
 		
 //		System.out.println("Creo il grafo relativo al 2000");
 //		model.createGraph(2000);
